@@ -17,6 +17,14 @@
     background-color: #212529;
 }
 
+.tratamento_card-header {
+    background-color: #8EB1C0;
+}
+
+.tratamento_card-body {
+  background-color: #C3D8E1;
+}
+
 .carousel-indicators li {
     background: #a3a3a3;
     border-radius: 50%;
@@ -146,4 +154,12 @@
   .active,
   .demo:hover {
     opacity: 1;
+  }
+
+  @media screen and (max-width: 425px) {
+    .banner {
+      object-fit: cover;
+      object-position: 0 45%;
+      height: 180px;
+    }
   }
