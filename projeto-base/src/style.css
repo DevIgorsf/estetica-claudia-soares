@@ -17,6 +17,14 @@
     background-color: #212529;
 }
 
+.tratamento_card-header {
+    background-color: #8EB1C0;
+}
+
+.tratamento_card-body {
+  background-color: #C3D8E1;
+}
+
 .carousel-indicators li {
     background: #a3a3a3;
     border-radius: 50%;
@@ -148,31 +156,10 @@
     opacity: 1;
   }
 
-  .overlay {
-    position: absolute;
-    top: 0;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    height: 100%;
-    width: 100%;
-    opacity: 0;
-    transition: .5s ease;
-    background-color: #5E899C;
-  }
-  
-  .container:hover .overlay {
-    opacity: 1;
-  }
-  
-  .text {
-    color: white;
-    font-size: 20px;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    -webkit-transform: translate(-50%, -50%);
-    -ms-transform: translate(-50%, -50%);
-    transform: translate(-50%, -50%);
-    text-align: center;
+  @media screen and (max-width: 425px) {
+    .banner {
+      object-fit: cover;
+      object-position: 0 45%;
+      height: 180px;
+    }
   }
